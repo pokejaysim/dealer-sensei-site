@@ -1,0 +1,137 @@
+/* === Page Styles (Privacy, Support) === */
+.page {
+    padding: 120px 24px 80px;
+}
+
+.page-inner {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.page-inner h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.page-date {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 48px;
+}
+
+.page-subtitle {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    margin-bottom: 48px;
+}
+
+.page-inner section {
+    margin-bottom: 40px;
+}
+
+.page-inner h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: var(--text);
+}
+
+.page-inner p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+.page-inner a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.page-inner a:hover {
+    text-decoration: underline;
+}
+
+.page-inner ul {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0;
+}
+
+.page-inner ul li {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    padding: 6px 0 6px 24px;
+    position: relative;
+}
+
+.page-inner ul li::before {
+    content: "•";
+    color: var(--accent);
+    font-weight: bold;
+    position: absolute;
+    left: 8px;
+}
+
+/* === Support Page === */
+.support-contact {
+    background: var(--bg-card);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: var(--radius);
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.support-contact h2 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+
+.support-contact .btn-primary {
+    margin: 20px 0 16px;
+    font-size: 0.95rem;
+}
+
+.response-time {
+    font-size: 0.85rem !important;
+    color: var(--text-muted);
+}
+
+/* FAQ */
+.faq {
+    margin-top: 48px;
+}
+
+.faq h2 {
+    margin-bottom: 28px;
+}
+
+.faq-item {
+    background: var(--bg-card);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: var(--radius-sm);
+    padding: 24px 28px;
+    margin-bottom: 12px;
+    transition: border-color 0.2s;
+}
+
+.faq-item:hover {
+    border-color: rgba(0, 230, 118, 0.15);
+}
+
+.faq-item h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 8px;
+}
+
+.faq-item p {
+    margin-bottom: 0;
+}
+
+.faq-item a {
+    color: var(--accent);
+}
